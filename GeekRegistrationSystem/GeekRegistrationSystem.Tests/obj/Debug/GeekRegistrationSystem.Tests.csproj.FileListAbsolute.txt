@@ -15,7 +15,6 @@ C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\Gee
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\GeekRegistrationSystem.Tests.dll
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\GeekRegistrationSystem.Tests.pdb
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\GeekRegistrationSystem.dll
-C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\Newtonsoft.Json.dll
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\System.Web.Helpers.dll
@@ -39,3 +38,9 @@ C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\Gee
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\obj\Debug\GeekRegistrationSystem.Tests.csprojResolveAssemblyReference.cache
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\obj\Debug\GeekRegistrationSystem.Tests.dll
 C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\obj\Debug\GeekRegistrationSystem.Tests.pdb
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\System.Data.SQLite.dll
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rameya\Documents\Visual Studio 2015\Projects\GeekRegistrationSystem\GeekRegistrationSystem.Tests\bin\Debug\System.Data.SQLite.xml

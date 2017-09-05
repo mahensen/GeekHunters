@@ -32,9 +32,10 @@
 
         <dd>
             @foreach (var skill in Model.CandidateSkills) {
-                @Html.DisplayFor(model => skill.Skill.Name)<text>&nbsp;&nbsp;</text>
-
-}
+                <text>[</text>
+                @Html.DisplayFor(modelItem => skill.Skill.Name)
+                <text>]&nbsp;&nbsp;</text>
+            }
         </dd>
 
     </dl>

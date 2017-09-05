@@ -41,7 +41,9 @@
                     @foreach (var skill in Model.CandidateSkills) {
                         <tr>
                             <td class="dl-horizontal">
+                                <text>[</text>
                                 @Html.DisplayFor(model => skill.Skill.Name)
+                                <text>]&nbsp;&nbsp;&#9;</text>
                                 @Html.ActionLink("Manage skill", "Index", "Skills", new { candidateId = Model.Id }, null)
                             </td>
                             <td></td>

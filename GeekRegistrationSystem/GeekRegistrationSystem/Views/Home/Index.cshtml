@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<GeekRegistrationSystem.Models.Candidate>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Candidates List";
 }
 
-<h2>Index</h2>
+<h2>Candidates List</h2>
 
 <p>
     @Html.ActionLink("Register a new candidate", "Create")
@@ -50,9 +50,11 @@
                     @Html.DisplayFor(modelItem => item.LastName)
                 </td>
                 <td>
-                    @foreach (var skill in item.CandidateSkills) {
+                    @foreach (var skill in item.CandidateSkills)
+                    {
+                        <text>[</text>
                         @Html.DisplayFor(modelItem => skill.Skill.Name)
-                        <text>&nbsp;&nbsp;&nbsp;&nbsp;</text>
+                        <text>]&nbsp;&nbsp;</text>
                     }
                    
                 </td>

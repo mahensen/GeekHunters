@@ -122,7 +122,7 @@ namespace GeekRegistrationSystem.Controllers
             {
                 return HttpNotFound();
             }
-            return View(candidateSkill);
+            return RedirectToAction("Index", new { candidateId = candidateSkill.CandidateId });
         }
 
         // POST: Skills/Delete/5

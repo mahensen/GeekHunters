@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GeekRegistrationSystem;
 using GeekRegistrationSystem.Controllers;
+using GeekRegistrationSystem.Models;
 
 namespace GeekRegistrationSystem.Tests.Controllers
 {
@@ -13,7 +14,7 @@ namespace GeekRegistrationSystem.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
-        public void Index()
+        public void TestIndexPage()
         {
             // Arrange
             HomeController controller = new HomeController();
@@ -25,30 +26,37 @@ namespace GeekRegistrationSystem.Tests.Controllers
             Assert.IsNotNull(result);
         }
 
+
         [TestMethod]
-        public void About()
+        public void TestIndexPageWithParams()
         {
             // Arrange
             HomeController controller = new HomeController();
 
             // Act
-            ViewResult result = controller.About() as ViewResult;
-
-            // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
-        }
-
-        [TestMethod]
-        public void Contact()
-        {
-            // Arrange
-            HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.Contact() as ViewResult;
+            ViewResult result = controller.Index(1) as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
         }
+
+
+        [TestMethod]
+        public void TestDetailsPageWithParams()
+        {
+            // Arrange
+            HomeController controller = new HomeController();
+
+            // Act
+            ViewResult result = controller.Details(1) as ViewResult;
+
+            // Assert
+            Assert.AreEqual("Jon", ((Candidate)result.Model).FirstName);
+        }
+
+
+        
+
+
     }
 }
