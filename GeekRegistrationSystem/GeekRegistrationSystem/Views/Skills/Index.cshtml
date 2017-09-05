@@ -1,0 +1,33 @@
+﻿@model IEnumerable<GeekRegistrationSystem.Models.CandidateSkill>
+
+@{
+    ViewBag.Title = "Add / Edit / Delete Skills";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Add a new skill", "Create", "Skills", new { candidateId = Model.FirstOrDefault().CandidateId }, null)
+</p>
+<table class="table">
+    <tr>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Skill.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Skill.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

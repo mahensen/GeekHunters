@@ -1,0 +1,40 @@
+﻿@model GeekRegistrationSystem.Models.CandidateSkill
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2></h2>
+
+<h3>Are you sure you want to remove this skill?</h3>
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Candidate.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Candidate.FirstName)
+        </dd>
+
+        <dt>
+            Skill
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Skill.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index", "Skills", new { candidateId = Model.CandidateId }, null)
+        </div>
+    }
+</div>
